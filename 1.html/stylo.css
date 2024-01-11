@@ -1,0 +1,39 @@
+#h1-1 {
+    background-color: red;
+    text-align: center;
+    color: white;
+    border: 3px solid black;
+    font-family: 'Calibri';
+    font-size: 3em;
+
+}
+
+#h1-2 {
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    border: 2px solid black;
+}
+
+/*.ule
+{
+    color: blueviolet;
+}*/
+
+#waza p
+{
+    font-size: larger;
+    
+}
+
+a:visited
+{
+    color: purple;
+}
+
+#h1-1:hover
+{
+    background-color: brown;
+    color:aqua;
+}
