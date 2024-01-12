@@ -1,0 +1,19 @@
+#ej1{
+    border: solid blue;
+    background-color: rgb(245, 195, 247);   
+    padding: 32px;
+    margin: 12px;
+}
+#ej2{
+    border: solid purple;
+    background-color: skyblue;
+}
+
+#ej3{
+    margin-top: 48px;
+    border: solid rgb(172, 10, 10);
+    background-color: rgb(255, 209, 169);
+    padding: 32px;
+    margin-left: 900px;
+}
+

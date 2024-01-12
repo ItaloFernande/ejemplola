@@ -1,0 +1,29 @@
+/*div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    background-color: rgb(255, 48, 48);
+    border: solid black ;
+    text-align: center;
+}*/
+
+a{
+    display: block / none;
+}
+
+.fondo_rojo{
+    background-color: red;
+}
+
+.fondo_azul{
+    background-color: blue;
+}
+
+.fondo_verde{
+    background-color: green;
+}
+
+.fondo_amarillo{
+    background-color: yellow;
+}
+
