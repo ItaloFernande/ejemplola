@@ -1,0 +1,28 @@
+#ja{
+    background-color: white;
+    padding: 8px;
+}
+
+#centro{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.conteni{
+    font-family: Calibri;
+    padding: 8px;
+    background-color: rgb(202, 229, 255);
+    margin: 8px;
+    font-size: 16px;
+}
+
+#boton
+{
+    padding-left: 24px;
+    padding-right: 24px; 
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: solid rgb(211, 211, 211);
+}
