@@ -1,34 +1,36 @@
+
+.fondo{
+    background-color: #EFE1C6;
+}
+
+
+.fondocont{
+    background-color: white;
+    width: 700px;
+    font-family: Arial;
+    padding: 10px;
+    border-bottom: #66401A 10px solid;
+}
+
+
 h1, h2{
     color: #66401A ;
     font-family: Georgia;
     font-weight: bolder;
 }   
-#fondokaki{
-    background-color: white;
-    width: 1000px;
-    padding: 10px;
-    border-bottom: #66401A 10px solid;
-}
 
-div,p,u{
-    font-family: Arial;
-    font-size: large;
-}
+
 #imagen{
     text-align: center;
-    
 }
 
 table, thead, tbody,tr,td{
     border: black solid 1px;
 }
 
-.container{
-    background-color: #EFE1C6;
-}
 
 u{
-    font-size: larger;
+    font-size: 24px;
     font-style: italic;
 }
 
@@ -36,8 +38,11 @@ u{
     background-color: #EFE1C6;
 }
 
-#jule{
+#cajapro{
     background-color: #EFE1C6;
+    width: 200px;
+    margin-left: auto;
+    margin-top: 24px;
     padding: 10px;
     border: 1px solid #66401A;
 }

@@ -9,16 +9,19 @@
     <link rel="stylesheet" href="/4.bootstrap-grid/estilos1.css">
     <title>Ejercicio1</title>
     </head>
-    <body class="container">
-        <div id="fondokaki">
-            <div id="imagen"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/ULIMA_logo.png" /></div>
+    <body class="fondo">
+        <div class ="container fondocont">
+            <div id="imagen">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/ULIMA_logo.png" />
+            </div>
             <h1>Sobre nosotros</h1>
-            <p>Ulima Social es una iniciativa que quiere mejorar la comunidad mediante la ejecucion de 
-                <u>proyectos prácticos</u> que perminta soluciones problemas. Es un lugar donde se juntan gente 
-                creativa, alrededor de grandes ideas
-            </p> 
+            <div>
+                Ulima Social es una iniciativa que quiere mejorar la comunidad mediante la ejecucion de <u>proyectos prácticos</u> 
+                que perminta soluciones problemas. Es un lugar donde se juntan gente creativa, alrededor de grandes ideas
+            </div> 
             <div class="row">
-                <div class = "col-8">
+                <div class = "col">
+                <p>    
                     <h2>Cronograma</h2>
                     <table>
                         <thead>
@@ -38,35 +41,51 @@
                             </tr>
                         </tbody>
                     </table>
+                </p>
+                <p>
                     <h2>Regístrate!</h2>
-                    <b>Nombre:</b> <input type="text" class = "caja"> </br>
-                    <b>Email:</b> <input type="text" class = "caja">  </br>
-                    <b>Lugar:</b> 
-                    <select>
-                        <option>Lima</option>
-                        <option>Arequipa</option>
-                    </select></br>
-                    <b>Género:</b> <input type="radio" name="xd"><b>Femenino</b> <input type="radio" name="xd"><b>Masculino</b></br>
-                    <b>Experiencia:</b></br>
-                    <textarea rows="2"></textarea><br>
-                    <input type="button" value="Registrarse">
-                </div>
-                <div class = "col-4" id="jule">
-                    <h2>Projectos</h2>
-                    <ul>
-                        <li>Más buscados</li>
-                        <ul>
-                            <li><a href="#">Flying ducks</a></li>
-                            <li><a href="#">Kitty kitty kitty</a></li>
-                        </ul>
-                        <li>Últimos</li>
-                        <ul>
-                            <li><a href="#">Avengers against Climate Change</a></li>
-                            <li><a href="#">Facedog</a></li>
-                        </ul>
-                    </ul>
-                </div>  
-    
+                    <div>
+                        <b>Nombre:</b> <input type="text" class = "caja"> 
+                    </div>
+                    <div>
+                        <b>Email:</b> <input type="text" class = "caja">
+                    </div>
+                    <div>
+                        <b>Lugar:</b> 
+                        <select>
+                            <option>Lima</option>
+                            <option>Arequipa</option>
+                        </select>
+                    </div>
+                    <div>
+                        <b>Género:</b> <input type="radio" name="xd"><b>Femenino</b> <input type="radio" name="xd"><b>Masculino</b>
+                    </div>
+                    <div>
+                        <b>Experiencia:</b>
+                    </div>
+                        <textarea rows="2"></textarea>
+                    <div>
+                        <input type="button" value="Registrarse">
+                    </div>
+                    </div>
+                    <div class = "col">
+                        <div id="cajapro">
+                            <h2>Projectos</h2>
+                            <ul>
+                                <li>Más buscados</li>
+                                <ul>
+                                    <li><a href="#">Flying ducks</a></li>
+                                    <li><a href="#">Kitty kitty kitty</a></li>
+                                </ul>
+                                <li>Últimos</li>
+                                <ul>
+                                    <li><a href="#">Avengers against Climate Change</a></li>
+                                    <li><a href="#">Facedog</a></li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </p>  
             </div>
         </div>
     </body>
