@@ -4,7 +4,7 @@ let listaCasillas = []
 
 function crearCasillas()
 {
-    for(let i =0;i < simbolosDispo.length;i++)
+    for(let i =0  ; i < simbolosDispo.length ; i++)
     {
         let casilla1 = {
             simbolo : simbolosDispo[i],
@@ -26,11 +26,11 @@ function devolverCasilla(row, col)
 }
 
 function ponerSimbolosCasillas(){
-    for( let i = 0;i<2;i++)
+    for( let i = 0 ; i<2 ; i++)
     {
-        for(let j = 0;j<3;j++)
+        for(let j = 0 ; j<3 ; j++)
         {
-            const doometio = document.getElementById(i+"-"+j)
+            const doometio = document.getElementById(i+"_"+j)
             const casilla = devolverCasilla(i,j)
             doometio.innerHTML = casilla.simbolo
         }
