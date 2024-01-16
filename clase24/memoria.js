@@ -1,6 +1,8 @@
 let simbolosDispo =["&#127814;","&#128507;","&#128511;"]
 
 let listaCasillas = []
+let numeroTurno = 1
+let casillaTurnoAnterior = null
 
 function crearCasillas()
 {
@@ -32,7 +34,55 @@ function ponerSimbolosCasillas(){
         {
             const doometio = document.getElementById(i+"_"+j)
             const casilla = devolverCasilla(i,j)
-            doometio.innerHTML = casilla.simbolo
+            if (casilla.monstrandoSimbolo)
+            {
+                doometio.innerHTML = casilla.simbolo
+            }
+            else
+            {
+                doometio.innerHTML = "UL"
+            }
+        }
+    }
+}
+
+function casillaonclick(row, col)
+{
+    //1. Obtener datos de casilla que se hizo click
+    const casillaseleccionada = devolverCasilla(row, col)
+    if (numeroTurno == 1)
+    {
+        casillaseleccionada.monstrandoSimbolo = true
+        casillaTurnoAnterior = casillaseleccionada    
+        numeroTurno = 2
+        ponerSimbolosCasillas()
+    }
+    else
+    {   
+        casillaseleccionada.monstrandoSimbolo = true
+
+        //2. Verificacion si son iguales los simbolos
+        if(casillaTurnoAnterior.simbolo != casillaseleccionada.simbolo)
+        {
+            //NO Deben mostrarse los 2
+            casillaseleccionada.monstrandoSimbolo = true
+            ponerSimbolosCasillas()
+
+            setTimeout(
+                function()
+                {
+                    casillaseleccionada.monstrandoSimbolo = false
+                    casillaTurnoAnterior.monstrandoSimbolo = false
+                    ponerSimbolosCasillas()
+                    casillaTurnoAnterior = null
+                    numeroTurno = 1
+            },2000)
+        }
+        else
+        {
+            casillaTurnoAnterior = null
+            numeroTurno = 1
+            ponerSimbolosCasillas()
         }
     }
 }
