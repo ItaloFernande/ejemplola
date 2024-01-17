@@ -1,0 +1,12 @@
+
+#botonalu{
+    border: 0px;
+    color: white;
+    background-color: rgb(9, 124, 231);
+    border-radius: 5px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 165px;
+    padding-right: 165px;
+    text-align: center;
+}

@@ -16,3 +16,8 @@ div{
     margin-top: 310px;
     font-size: 20px;    
 }
+
+#email{
+    border: solid grey;
+    border-radius: 10px;
+}
